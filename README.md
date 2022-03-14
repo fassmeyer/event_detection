@@ -7,7 +7,7 @@ The repo contains the presented model architecture for the abstract submission "
 
 ## Model
 ### Training 
-To produce the best reported results, run
+To produce the best reported results in soccer, run
 ```
 python train.py --players all --graph_model gat --adjacency_type 2 --top_k_neigh 5 --run <expname>
 ```
